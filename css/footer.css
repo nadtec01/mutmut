@@ -1,0 +1,120 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+
+footer{
+    color: rgb(36, 38, 3A);
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    width: 100%;
+    height: 250px;
+    gap: 7%;
+    padding: 6% 8%;
+}
+
+.footer h5{
+    font-size: 18px;
+    margin-bottom: 12px;
+    position: relative;
+    width: max-content;
+    overflow: hidden;
+}
+
+.copyright{
+    text-align: center;
+    border-top: 2px solid #363636;
+    padding-top: 25px;
+}
+
+.footer p{
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    max-width: 400px;
+}
+
+.footer li{
+    margin-bottom: 4px;
+}
+
+.footer li a{
+    color: #36383a;
+}
+
+
+
+.inputs{
+    position: relative;
+    width: 240px;
+}
+
+.inputs input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #36383a;
+    padding: 5% 13%;
+    width: 100%;
+}
+
+
+.fa-envelope{
+    position: absolute;
+    bottom: 36%;
+    left: 1%;
+}
+
+.fa-user{
+    position: absolute;
+    bottom: 36%;
+    left: 1%;
+}
+
+.fa-arrow-right{
+    position: absolute;
+    bottom: 22%;
+    right: 1%;
+}
+
+input::placeholder{
+    color: #36383a;
+}
+
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3 rem 0;
+  }
+  
+  .socials li {
+    margin: 0 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .socials a {
+    text-decoration: none;
+    color: #36383a;
+  }
+  
+  .socials a i {
+    font-size: 1.3rem;
+    transform: color .4s ease;
+  }
+  
+  .socials a:hover {
+    color: #76a7ab;
+  }
