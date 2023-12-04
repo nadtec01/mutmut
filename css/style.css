@@ -193,10 +193,10 @@ button:focus, input:focus, textarea:focus {
 }
 
 .newsletter_wrapper {
-    background-image: url(img/neom-z4ELCkNmnz0-unsplash.jpg);
-     background-size: cover; /* Juster baggrundsstørrelsen til cover */
-    background-position: center top; /* Centrer baggrundspositionen øverst */
-	height: 100vh;
+    background-image: url(../img/christopher-burns-BdVQU-NDtA8-unsplash.jpg);
+    background-size: cover; /* Juster baggrundsstørrelsen til cover */
+    background-position: center center; /* Centrer baggrundspositionen øverst */
+	height: 50vh;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
