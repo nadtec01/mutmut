@@ -56,7 +56,6 @@ footer{
     list-style: none;
     outline: none;
     color: #36383a;
-
 }
 
 
@@ -166,6 +165,8 @@ input::placeholder{
   .socials a i {
     font-size: 1.3rem;
     transform: color .4s ease;
+    margin-bottom: 30px;
+
   }
   
   .socials a:hover {
@@ -261,7 +262,6 @@ button:focus, input:focus, textarea:focus {
 	right: 0;
 	top: 0;
 	height: 100%;
-	color: #36383a;
 	background: #76a7ab;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -273,7 +273,7 @@ button:focus, input:focus, textarea:focus {
 }
 
 .newsletter_wrapper form button:hover {
-	background: #d0dfdb;
+	background: transparent;
 }
 
 @media (max-width: 800px) {
