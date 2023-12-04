@@ -36,7 +36,11 @@ nav{
 }
 
 nav .logo{
-	width: 75px;
+        max-width: 100px;
+        margin-right: 10px; 
+        padding: 20px;
+        display: flex;
+        align-items: center;
 }
 
 .header{
@@ -73,8 +77,10 @@ footer{
 
 .copyright{
     text-align: center;
+    width: 80%;
     border-top: 2px solid #363636;
     padding-top: 25px;
+    margin-left: 10%;
 }
 
 .footer p{
@@ -167,6 +173,15 @@ input::placeholder{
 		display: flex;
 		cursor: pointer;
 	}
+
+    .footer {
+        flex-direction: column;
+        margin-bottom: 90px;
+    }
+
+    .col{
+        margin-bottom: 30px;
+    }
 } 
 
 @media screen and (min-width: 701px) {
