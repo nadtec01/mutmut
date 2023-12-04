@@ -4,6 +4,11 @@
 	margin: 0px;
 }
 
+main{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
 /*Navigation start*/
 header{
 	background-color: rgb(127, 167, 173);
