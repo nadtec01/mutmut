@@ -1,0 +1,25 @@
+.aside {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+
+aside{
+    width: 25%;
+    margin-right: 20px;
+}
+
+aside nav ul{
+    list-style: none;
+}
+
+aside nav li{
+    text-decoration: none;
+}
+
+
+aside nav li a{
+    text-decoration: none;
+    color: black;
+}
