@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navigation</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/e416ad3e47.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <header>
@@ -13,18 +14,62 @@
             <a href="index.html">
                 <img class="logo" src="img/Mutmut logo CMYK-kopi.jpg" alt="Billede af virksomhedens logo">
             </a>
-            <div class="togglemenu" id="togglemenu">         
-                <div class="menuicon">&#9776;</div>
-                <i class="fa-solid fa-xmark lukketmenu"></i>
+            <div class="nav_toggle" id="nav_toggle">         
+                <div class="nav_burger">&#9776;</div>
+                <i class="fa-solid fa-xmark nav_close"></i>
             </div>      
             <ul>
                 <li><a href="#">Hjem</a></li>
-                <li><a href="#">Produkter</a></li>
-                <li><a href="#">Om os</a></li>
-            </ul>
+                <li class="dropdown__item">
+                    <div class="nav__link">
+                       Produkter <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <ul class="dropdown__menu">
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-pie-chart-line"></i> Plakater
+                          </a>                          
+                       </li>
+
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-arrow-up-down-line"></i> Sæson
+                          </a>
+                       </li>
+
+                       
+                    </ul>
+                 </li>
+
+                 <li class="dropdown__item">
+                    <div class="nav__link">
+                       Om os <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <ul class="dropdown__menu">
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-user-line"></i> Om os
+                          </a>                          
+                       </li>
+
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-lock-line"></i> Handelsbetingelser
+                          </a>
+                       </li>
+
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-message-3-line"></i> Send en besked
+                          </a>
+                       </li>
+                    </ul>
+                 </li>
         </nav>
     </header>
-    
+    <script src="js/main.js"></script>
 </body>
 
 
